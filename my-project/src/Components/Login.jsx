@@ -8,10 +8,10 @@ import logo from "../assets/all-logo.png";
 const Login = () => {
   return (
     <div className=" flex flex-col items-center justify-center ">
-      <div className=" text-8xl font-bold text-white sm:pt-8 pt-2 pb-5 ">
+      <div className="font-bold text-white sm:pt-8 pt-2 pb-5 ">
         <img
           src={logo}
-          className=" w-auto max-w-[150px] sm:max-w-[200px] "
+          className="w-auto max-w-[150px] sm:max-w-[200px] "
           alt="logo"
         />
       </div>
@@ -62,12 +62,12 @@ const Login = () => {
             </div>
           </div>
 
-          <div className="flex justify-between items-center p-1 text-white text-lg rounded-[4px] bg-[#0088CC] mb-3 ">
-            <button className=" flex-grow text-center">Login</button>
+          <div className="flex justify-between items-center p-1 text-white text-lg rounded-[4px] bg-[#0088CC] mb-3 hover:bg-[#0088cce6]">
+            <button className=" flex-grow text-center ">Login</button>
             <FaSignInAlt className=" mr-2" />
           </div>
 
-          <div className="flex justify-between items-center p-1 text-white text-lg rounded-[4px] bg-[#0088CC] ">
+          <div className="flex justify-between items-center p-1 text-white text-lg rounded-[4px] bg-[#0088CC]  hover:bg-[#0088cce6]">
             <button className=" flex-grow text-center">
               Login with demo ID
             </button>
@@ -89,9 +89,9 @@ const Login = () => {
       </div>
 
       {/* footer */}
-      <div className=" absolute flex flex-col sm:flex-row md:flex-row items-center justify-center text-center bottom-0 w-full h-auto sm:h-16 bg-[#0088cc] sm:px-3 px-7 sm:pb-3 pb-5  sm:pt-3 pt-4">
+      <div className="fixed flex flex-col sm:flex-row md:flex-row items-center justify-center text-center bottom-0 w-full h-auto sm:h-16 bg-[#0088cc] sm:px-3 px-7 sm:pb-3 pb-5  sm:pt-3 pt-4">
         {/* Link container */}
-        <div className="sm:absolute sm:left-0 flex flex-row sm:flex-row items-center justify-start sm:gap-4 gap-24  sm:text-base text-[12px]  font-bold text-white sm:ml-3 mb-3 sm:mb-0">
+        <div className="sm:absolute sm:left-0 flex  flex-row sm:flex-row items-center justify-start  sm:gap-4 gap-12  sm:text-base text-[12px]  font-bold text-white sm:ml-3 mb-3 sm:mb-0 flex-wrap">
           <a href="#" className=" sm:no-underline underline whitespace-nowrap">
             Terms and Conditions
           </a>
@@ -100,7 +100,9 @@ const Login = () => {
           </a>
         </div>
 
-        <h2 className="sm:text-2xl text-xl font-bold text-white">24X7 Support</h2>
+        <h2 className="sm:text-2xl text-xl font-bold text-white">
+          24X7 Support
+        </h2>
       </div>
     </div>
   );
