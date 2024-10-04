@@ -3,7 +3,7 @@ import Login from "./Components/Login";
 
 function App() {
   return (
-    <div className="App min-h-screen h-full bg-gradient-to-t from-[#0088CC] to-[#0088cca5]">
+    <div className="App min-h-screen h-full bg-gradient-to-b from-[#0088CC] to-[#2c3e50] overflow-hidden">
       <Login />
     </div>
   );
